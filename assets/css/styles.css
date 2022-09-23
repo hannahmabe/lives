@@ -1,0 +1,33 @@
+body {
+  background: #020532;
+  padding-top: 50px;
+}
+
+#tab {
+  background: #10054d;
+  border-radius: 10px;
+}
+
+.nav-tabs .nav-link {
+  padding: 20px 40px;
+  color: #fff;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background: transparent;
+  border: 0;
+  border-bottom: 3px solid #f4be54;
+  color: #fff;
+  font-weight: bold;
+}
+
+.tab-pane {
+  padding: 40px;
+  color: #fff;
+}
+
+.form-group {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
